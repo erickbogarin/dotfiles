@@ -113,8 +113,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-source ~/zsh/aliases.zsh
-source ~/zsh/functions.zsh
+source ~/.zsh/aliases.zsh
+source ~/.zsh/functions.zsh
 
 # Adding a new entry to Path variable
 path+=('~/.local/bin')
