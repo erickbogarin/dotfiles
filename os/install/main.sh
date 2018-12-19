@@ -1,7 +1,8 @@
 #!/bin/bash
 
 cd "$(dirname "${BASH_SOURCE[0]}")" \
-&& . "../utils.sh"
+&& . "../utils.sh" \
+&& . "utils.sh"
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -19,6 +20,7 @@ main() {
     ./yarn.sh
     ./tmux.sh
     ./vim.sh
+    ./zsh.sh
 }
 
 main
