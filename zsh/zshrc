@@ -24,7 +24,8 @@ POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
 
 POWERLEVEL9K_MODE='nerdfont-complete'
 
-export TERM="xterm-256color"
+# export TERM="xterm-256color"
+[[ $TMUX = "" ]] && export TERM="xterm-256color"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -82,7 +83,7 @@ plugins=(
     tmux
 )
 
-source $ZSH/oh-my-zsh.sh
+#source $ZSH/oh-my-zsh.sh
 
 # User configuration
 

@@ -51,7 +51,7 @@ main() {
     
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     
-    # Inizialize zsh and changes to the default shell.
+    # Initialize zsh and changes to the default shell.
     if cmd_exists "zsh"; then
         zsh && source $HOME/.zshrc && chsh -s /bin/zsh
     else

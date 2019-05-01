@@ -9,18 +9,18 @@ cd "$(dirname "${BASH_SOURCE[0]}")" \
 main() {
     print_in_purple "\n • Installs\n\n"
     
-    update
-    upgrade
+    # update
+    # upgrade
     
-    ./build-essentials.sh
-    ./git.sh
-    ./misc.sh
+    # ./build-essentials.sh
+    # ./git.sh
+    # ./misc.sh
     ./misc_tools.sh
-    ./nvm.sh
-    ./yarn.sh
-    ./tmux.sh
-    ./vim.sh
-    ./zsh.sh
+    # ./nvm.sh
+    # ./yarn.sh
+    # ./tmux.sh
+    # ./vim.sh
+    # ./zsh.sh
 }
 
 main
